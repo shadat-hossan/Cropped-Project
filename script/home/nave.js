@@ -1,7 +1,8 @@
-const navers = document.querySelector("#hello-worls");
+const mobileNavbarBbtn = document.querySelector(".mobile-navbar-btn");
+const allHadItem = document.querySelector(".header-item");
+const mobileNavbarBtn = document.querySelector(".mobile-navbar-btn");
 
-console.log(navers);
-
-navers.addEventListener("click", function () {
-  console.log("Hello");
+mobileNavbarBbtn.addEventListener("click", () => {
+  allHadItem.classList.toggle("h-active");
+  mobileNavbarBtn.classList.toggle("h-active");
 });
