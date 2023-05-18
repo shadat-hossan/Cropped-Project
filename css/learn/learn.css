@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,400;1,600&display=swap");
+.skilstitle {
+  background: #ffffff;
+  padding: 1rem;
+  width: 100%;
+  border-bottom: 2px solid #555555;
+  margin-bottom: 2rem;
+}
+.skilstitle h2 {
+  text-align: center;
+  font-family: "Josefin Slab", Sans-serif;
+  font-weight: 600;
+  font-size: 1.9rem;
+}

@@ -50,6 +50,9 @@ body {
 .all-had-item .header-list:last-child {
   padding-right: 0px;
 }
+.all-had-item .fa-caret-down {
+  margin-left: 10px;
+}
 .sub-had-item {
   width: 200px;
   display: block;
