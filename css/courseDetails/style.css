@@ -1,0 +1,445 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,400;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100&display=swap");
+* {
+  font-family: "Roboto", Sans-serif;
+}
+
+::selection {
+  background: #e48300;
+  color: #000000;
+}
+
+.introduction {
+  /* background-color: antiquewhite; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 0;
+}
+
+.sub-intro {
+  text-align: center;
+}
+
+.sub-intro .su_title {
+  font-family: "Josefin Slab", Sans-serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+  color: #54595f;
+  line-height: 1.4em;
+}
+
+.sub-intro .su_on_cours {
+  font-family: "Josefin Slab", Sans-serif;
+  font-weight: 400;
+  color: #54595f;
+  line-height: 2em;
+}
+
+.sub-intro .su_stan_regis {
+  font-weight: 400;
+  font-family: "Roboto", Sans-serif;
+  color: #ea7a00;
+  line-height: 2em;
+}
+
+/* =============Couorse Details ========== */
+
+.couorse-details {
+  display: flex;
+}
+
+.live-seion {
+  flex: 40%;
+}
+
+.sub-wro {
+  padding: 10px;
+  padding: 2.5rem;
+}
+
+.alimation {
+  animation: lives 1.3s ease 1;
+}
+
+@keyframes lives {
+  0% {
+    opacity: 0;
+    margin-left: -200%;
+  }
+  100% {
+    opacity: 1;
+    margin-left: 0%;
+  }
+}
+
+.count-section {
+  text-align: center;
+}
+
+.elementor-widget-button button {
+  fill: #000000;
+  color: #000000;
+  padding: 0.4rem 2rem;
+  background-color: #ff8c00;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: #ff8c00;
+  border-radius: 5px 5px 5px 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.elementor-widget-button button:hover {
+  color: #fff;
+}
+
+.elementor-widget-button-icon {
+  margin-left: 17px;
+  font-size: 15px;
+}
+
+.counterVstext {
+  padding: 0.8rem 2rem;
+  line-height: normal;
+}
+
+.counterVstext-font {
+  border: 0;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+.counterVstext #Count-member {
+  color: #e48300;
+  font-family: "Roboto", Sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.s01 h3 {
+  color: #54595f;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.s01 ul {
+  margin: 0;
+  padding: 0;
+  color: #54595f;
+}
+
+.s01 ul li {
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+  overflow: hidden;
+  line-height: 22px;
+}
+
+.s01 ul li i {
+  margin-right: 15px;
+  font-size: 13px;
+}
+
+.about-course {
+  flex: 70%;
+  margin: 0 25px;
+  color: #23283f;
+  box-shadow: 1px 1px 5px #f1f1f1a2, -1px -1px 5px #f1f1f1a2;
+  padding: 40px;
+  animation: about 1.3s ease 1;
+}
+
+@keyframes about {
+  0% {
+    opacity: 0;
+    margin-right: -200%;
+  }
+  100% {
+    opacity: 1;
+    margin-right: 0%;
+  }
+}
+
+.about-course .about-note {
+  margin: 3rem 0 0 0;
+}
+
+.about-note h3 {
+  color: #23283f;
+  font-family: "Josefin Slab", Sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.about-note p {
+  font-size: 17px;
+}
+
+.p_filter_widgets {
+  border-bottom: 1px solid #cfcdcd;
+}
+
+.CO-W-2 {
+  color: #23283f;
+  font-family: "Josefin Slab", Sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1.6em;
+  margin: 1rem 0;
+}
+
+.l_w_title h3 i {
+  font-size: 15px;
+  font-weight: 600;
+  color: #6d6d6d;
+}
+
+.l_w_title h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #6d6d6d;
+}
+
+.l_w_title {
+  cursor: pointer;
+  padding: 10px 0;
+}
+
+.widgets_inner ul li {
+  list-style-type: disc;
+}
+
+.widgets_inner .list {
+  display: none;
+}
+
+.widgets_inner .acti {
+  display: block;
+}
+
+.certification p {
+  font-size: 17px;
+}
+
+.learning-Outcomes ul li {
+  list-style-type: disc;
+  font-size: 17px;
+}
+
+.course-Instructor strong {
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.registration {
+  margin-top: 3rem;
+  background-color: #f8f8f8;
+}
+
+.registration .regis-head-text {
+  display: block;
+  padding-top: 3rem;
+  text-align: center;
+}
+
+.registration .regis-head-text h2 {
+  color: #242424;
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+.registration-all-staps {
+  display: flex;
+  padding: 2rem;
+  padding-bottom: 5rem;
+}
+
+.registration-staps {
+  width: 50%;
+  border: 2px solid #ffff;
+  padding: 35px;
+}
+
+.stap1 {
+  margin-right: 2rem;
+}
+
+.spap-container h2 {
+  color: #000000;
+  font-family: "Roboto", Sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.spap-container h4 {
+  color: #414141;
+  font-family: "Roboto", Sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.reg-span-color {
+  color: #ff6600;
+}
+
+.reg-elementer-texts p {
+  color: #242424;
+}
+
+.reg-elementer-texts ul li {
+  list-style-type: disc;
+  color: #242424;
+}
+
+.registration-from label {
+  display: block;
+  color: #777771;
+  font-size: 12px;
+  font-family: inherit;
+  font-weight: 700;
+}
+
+.registration-from label sup {
+  color: #e04562;
+  font-size: 10px;
+  margin-left: 2px;
+}
+
+.registration-from .regis-input {
+  width: 100%;
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.chackbox-type {
+  margin-bottom: 25px;
+}
+
+.Msp2 {
+  margin-bottom: 0 !important;
+}
+
+.registration-from .chackedbox-text {
+  margin-left: 10px;
+  font-size: 14px;
+  color: #000000;
+  font-weight: 400;
+}
+
+.registration-from .email-sub-text {
+  color: #777771;
+  font-size: 12px;
+  font-family: inherit;
+  font-weight: 400;
+}
+
+.registration-from .chackedbox-text a {
+  color: #e48300;
+}
+
+.registration-from button {
+  background-color: #ff8c00;
+  color: #000000;
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  padding: 8px 24px;
+  transition: all 0.3s;
+}
+
+.registration-from button:hover {
+  color: #ffff;
+  box-shadow: 1px 1px 5px #bebebefa, -1px -1px 5px #bebebefa;
+}
+
+.similarSkillDevelopment {
+  background-color: #fff8e7;
+  padding: 2rem;
+}
+
+.similarSkillDevelopment .s-sk-de-head {
+  color: #000000;
+  text-align: center;
+  display: block;
+  padding: 1rem 0 2.4rem 0;
+  font-weight: 800;
+  font-size: 39px;
+}
+
+.s-sk-de-all-courses {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+}
+
+.s-sk-de-si-courses {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px #f1f1f1ce, -1px -1px 5px #f1f1f1ce;
+}
+
+.s-sk-de-si-wro-courses {
+  padding: 15px;
+}
+
+.s-sk-de-si-courses-img img {
+  border-radius: 15px;
+}
+
+.s-sk-de-si-courses-text {
+  margin-top: 10px;
+}
+
+.s-sk-de-si-courses-text h1 a {
+  color: #000000;
+  font-family: "Roboto", Sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1 !important;
+}
+
+.s-sk-de-si-courses-text p {
+  color: #7a7a7a;
+  font-family: "Roboto", Sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom: 10px !important;
+}
+
+.s-sk-de-si-courses-text .CourseDetails {
+  font-family: "Roboto", Sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #ff8500;
+}
+
+.similarSkillDevelopment .sagest-All-course {
+  width: 100%;
+  text-align: center;
+  margin: 3.2rem 0 1.6rem 0;
+}
+
+.similarSkillDevelopment .sagest-All-course a {
+  fill: #202020;
+  color: #202020;
+  background-color: #61ce7000;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-radius: 5px 5px 5px 5px;
+  padding: 10px 30px;
+  font-weight: 500;
+}
