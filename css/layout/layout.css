@@ -9,6 +9,10 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 ::selection {
     background: #e48300;
     color: #000000;
@@ -21,15 +25,27 @@ body {
 
 .cointainer {
     width: 100%;
-    padding: 0 2%;
+    padding: 0% 2%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     z-index: 100 !important;
+    transition: all .5s !important;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fff;
+}
+
+.header-logo {
+    padding: 1rem 0 0 0;
 }
 
 .header-logo img {
-    width: 60px;
+    width: 80px;
     margin-top: -10px;
 }
 
@@ -61,6 +77,10 @@ body {
     color: #333;
     transition: all 0.3s;
     font-size: 15px;
+}
+
+a:is(:link, :active, :visited).active {
+    color: #f86d1c;
 }
 
 .all-had-item .header-list:hover a {
@@ -110,6 +130,9 @@ body {
 }
 
 @media screen and (max-width: 1024px) {
+    .cointainer {
+        padding: 2% 2%;
+    }
     .all-had-item .header-list:hover.header-list:after {
         width: 0% !important;
     }
@@ -118,7 +141,7 @@ body {
     }
     .all-had-item {
         position: absolute;
-        left: -45px;
+        left: 0px !important;
         width: 100%;
         background: #f7f6f6;
         margin-top: 30px;

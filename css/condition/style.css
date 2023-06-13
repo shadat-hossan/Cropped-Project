@@ -1,0 +1,77 @@
+.TermsAndConditions {
+    margin: 1rem 0 0 0;
+}
+
+.TermsAndConditions-container {
+    padding: 3rem;
+    background: #eee;
+}
+
+.TermsAndConditions-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.conditions ul {
+    margin: 0 0 2.5rem 3rem;
+}
+
+.conditions ul li {
+    list-style-type: disc;
+    margin-bottom: 10px;
+    line-height: 22px;
+    text-align: justify;
+}
+
+.submit-messag {
+    background: #e4dfdf;
+    padding: 1.5rem;
+    border-radius: 5px;
+}
+
+.submit-messag p {
+    font-size: 15px;
+    color: #2c2c2c;
+}
+
+.submit-messag p a {
+    text-decoration: none;
+    color: #337ab7;
+    transition: all .2s;
+}
+
+.submit-messag p a:hover {
+    text-decoration: underline;
+    color: #305270;
+}
+
+@media screen and (max-width: 900px) {
+    .TermsAndConditions-container h2 {
+        font-size: 2.3rem;
+        margin-bottom: 14px;
+    }
+}
+
+@media screen and (max-width: 532px) {
+    .TermsAndConditions {
+        margin: 0.5rem 0 0 0;
+    }
+    .TermsAndConditions-container h2 {
+        font-size: 1.5rem;
+    }
+    .conditions ul {
+        margin: 0 0 2rem 2.5rem;
+    }
+    .conditions ul li {
+        font-size: 14px;
+    }
+    .submit-messag p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .submit-messag p a {
+        font-size: 11px;
+    }
+}

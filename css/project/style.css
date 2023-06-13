@@ -1,3 +1,7 @@
+    * {
+        text-decoration: none;
+    }
+    
     .sub-cointainers {
         display: flex;
         /* align-items: center; */
@@ -48,6 +52,7 @@
         font-weight: 600;
         color: black;
         font-size: 16px;
+        transition: all .3s;
     }
     
     .left-project-link h4 a:hover {
@@ -67,6 +72,7 @@
     .left-project-link ul li a {
         color: #337ab7;
         font-size: 12px;
+        transition: all .2s;
     }
     
     .left-project-link ul li:hover a {
@@ -90,6 +96,7 @@
         font-weight: 500;
         color: black;
         font-size: 20px;
+        transition: all .3s;
     }
     
     .c-singal-project h4 a:hover {
@@ -110,6 +117,7 @@
     .c-l-p-podt-meta .post-meta-link a {
         font-size: 12px;
         color: #337ab7;
+        transition: all .2s;
     }
     
     .c-l-p-podt-meta .post-meta-link a:hover {
@@ -124,23 +132,26 @@
     .podt-meta-images-section {
         position: relative;
         margin-top: 5px;
-        overflow: hidden;
     }
     
     .podt-meta-images-section .podt-meta-short-dec {
         position: absolute;
-        top: 60%;
         left: 0;
-        background: #ffffffd7;
+        bottom: 20px;
+        background: #ffffffb8;
+        z-index: 90;
     }
     
     .podt-meta-short-dec p {
         padding: 10px 20px;
         margin-bottom: 0;
+        line-height: 20px;
+        font-size: 14px;
     }
     
     .podt-meta-short-dec p a {
         color: #337ab7;
+        transition: all .2s;
     }
     
     .podt-meta-short-dec p a:hover {
@@ -148,8 +159,8 @@
     }
     
     .podt-meta-dec-text p {
-        color: #111;
-        font-size: 13px;
+        color: #1c1c1c;
+        font-size: 12.5px;
         text-align: justify;
         line-height: 18px;
         margin-top: 10px;
@@ -163,6 +174,7 @@
     .podt-meta-read-more-section a {
         font-size: 13px;
         color: #337ab7;
+        transition: all .2s;
     }
     
     .podt-meta-read-more-section a:hover {
@@ -186,6 +198,20 @@
         font-weight: 600;
         color: black;
         font-size: 16px;
+        transition: all .3s;
+    }
+    
+    .s-p-dec-text p {
+        margin-bottom: 8px;
+    }
+    
+    .s-p-dec-text p a {
+        color: #337ab7;
+        transition: all .3s;
+    }
+    
+    .s-p-dec-text p a:hover {
+        color: #305270;
     }
     
     .singal-recent-updates-container h4 a:hover {
@@ -257,3 +283,77 @@
             display: none;
         }
     }
+    
+    img {
+        width: 100%;
+    }
+    
+    @media screen and (max-width: 900px) {
+        .left-project-link {
+            flex: 10%;
+            padding: 15px;
+        }
+        .left-project-link h4 a {
+            font-size: 15px;
+        }
+        .c-singal-project h4 a {
+            font-size: 18px;
+        }
+        .center-all-projects {
+            flex: 80%;
+        }
+        .c-singal-project {
+            padding: 15px;
+        }
+        .podt-meta-short-dec p {
+            padding: 8px 8px;
+            margin-bottom: 0;
+            line-height: 18px;
+            font-size: 13px;
+        }
+        .podt-meta-dec-text p {
+            font-size: 12px;
+        }
+        .podt-meta-read-more-section a {
+            font-size: 12px;
+        }
+        .right-projects-recent-updates {
+            flex: 20%;
+        }
+        .singal-recent-updates-container h4 a {
+            font-size: 15px;
+        }
+    }
+    
+    @media screen and (max-width: 682px) {
+        .allProjectsection {
+            flex-direction: column;
+        }
+        .left-project-link {
+            flex: 10%;
+            padding: 15px;
+        }
+        .left-project-link h4 a {
+            font-size: 15px;
+        }
+        .c-singal-project h4 a {
+            font-size: 18px;
+        }
+        .podt-meta-short-dec p {
+            padding: 8px 8px;
+            margin-bottom: 0;
+            line-height: 18px;
+            font-size: 13px;
+        }
+        .podt-meta-dec-text p {
+            font-size: 12px;
+        }
+        .podt-meta-read-more-section a {
+            font-size: 12px;
+        }
+        .singal-recent-updates-container h4 a {
+            font-size: 15px;
+        }
+    }
+    
+    @media screen and (max-width: 500px) {}
