@@ -25,20 +25,33 @@ html {
 
 .cointainer {
     width: 100%;
-    padding: 0% 2%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    padding: 0% 1%;
     z-index: 100 !important;
     transition: all .5s !important;
+    position: relative;
 }
 
 .sticky {
     position: fixed;
     top: 0;
     left: 0;
+    right: 0;
     background: #fff;
+    box-shadow: 1px 1px 3px #c5c5c5;
 }
+
+.Hello {
+    max-width: 72rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* .sticky .header-logo {
+    margin-right: 32rem;
+} */
 
 .header-logo {
     padding: 1rem 0 0 0;
@@ -54,6 +67,10 @@ html {
     padding: 25px 20px;
     position: relative;
     cursor: pointer;
+}
+
+.all-had-item .header-list:last-child {
+    padding-right: 0;
 }
 
 .all-had-item .header-list:after {
@@ -130,9 +147,6 @@ a:is(:link, :active, :visited).active {
 }
 
 @media screen and (max-width: 1024px) {
-    .cointainer {
-        padding: 2% 2%;
-    }
     .all-had-item .header-list:hover.header-list:after {
         width: 0% !important;
     }
@@ -190,6 +204,9 @@ a:is(:link, :active, :visited).active {
 }
 
 @media screen and (max-width: 900px) {
+    .cointainer {
+        padding: 0% 4%;
+    }
     .header-logo img {
         width: 60px;
     }

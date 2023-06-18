@@ -1,0 +1,51 @@
+.page-massage {
+    margin: 2%;
+    background: #eee;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.page-massage-container {
+    padding: 3rem;
+    width: 100%;
+    text-align: center;
+}
+
+.page-massage-container h1 {
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width: 1024px) {
+    .page-massage-container h1 {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .page-massage-container h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .page-massage {
+        margin: 1.5%;
+        padding: .8rem;
+    }
+    .page-massage-container {
+        padding: 2rem;
+    }
+    .page-massage-container h1 {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .page-massage-container {
+        padding: 1rem;
+    }
+    .page-massage-container h1 {
+        font-size: 1rem;
+    }
+}

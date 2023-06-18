@@ -41,6 +41,7 @@
     .left-project-link {
         flex: 15%;
         padding: 20px;
+        padding-left: 0;
     }
     
     .left-project-link h4 {
@@ -49,7 +50,7 @@
     }
     
     .left-project-link h4 a {
-        font-weight: 600;
+        font-weight: 500;
         color: black;
         font-size: 16px;
         transition: all .3s;
@@ -84,7 +85,11 @@
     }
     
     .c-singal-project {
-        padding: 20px;
+        padding: 0px 20px;
+    }
+    
+    .c-s-p-i-p-text {
+        padding: 20px 0;
         border-bottom: 1px solid #eee;
     }
     
@@ -146,7 +151,7 @@
         padding: 10px 20px;
         margin-bottom: 0;
         line-height: 20px;
-        font-size: 14px;
+        font-size: 13px;
     }
     
     .podt-meta-short-dec p a {
@@ -182,7 +187,7 @@
     }
     
     .right-projects-recent-updates {
-        flex: 28%;
+        flex: 20%;
     }
     
     .container-ubdate-projects {
@@ -195,7 +200,7 @@
     }
     
     .singal-recent-updates-container h4 a {
-        font-weight: 600;
+        font-weight: 500;
         color: black;
         font-size: 16px;
         transition: all .3s;
@@ -256,6 +261,29 @@
         line-height: 14px;
     }
     
+    .most-visited-updates-container h4 {
+        padding: 5px 0;
+        border-bottom: 1px solid #eee;
+        margin-bottom: 10px;
+    }
+    
+    .most-visited-updates-container h4 a {
+        font-weight: 500;
+        color: black;
+        font-size: 16px;
+        transition: all .3s;
+    }
+    
+    .singal-most-visited-updates-iamges p {
+        font-size: 12px;
+    }
+    
+    @media screen and (max-width: 1168px) {
+        .left-project-link {
+            padding-left: 12px;
+        }
+    }
+    
     @media screen and (max-width: 1024px) {
         .v-proj-section .all-v-proj-item {
             width: 100%;
@@ -289,6 +317,9 @@
     }
     
     @media screen and (max-width: 900px) {
+        .left-project-link {
+            display: none;
+        }
         .left-project-link {
             flex: 10%;
             padding: 15px;

@@ -152,11 +152,16 @@
 
 .about-course {
     flex: 70%;
-    margin: 0 25px;
+    margin: 0 25px 0 0;
     color: #23283f;
     box-shadow: 1px 1px 5px #f1f1f1a2, -1px -1px 5px #f1f1f1a2;
     padding: 40px;
+    padding-left: 0;
     animation: about 1.3s ease 1;
+}
+
+.learning-Outcomes .l-o-ul {
+    margin-left: 1rem;
 }
 
 @keyframes about {
@@ -456,4 +461,16 @@
 
 img {
     width: 100%;
+}
+
+@media screen and (max-width: 1168px) {
+    .about-course {
+        flex: 70%;
+        margin: 0 25px 0 0;
+        color: #23283f;
+        box-shadow: 1px 1px 5px #f1f1f1a2, -1px -1px 5px #f1f1f1a2;
+        padding: 40px;
+        padding-left: 12px;
+        animation: about 1.3s ease 1;
+    }
 }

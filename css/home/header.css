@@ -1,3 +1,10 @@
+.h-p-360 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .leftsit-elementor-text ul,
 .right-elementor-icons ul {
     margin: 0;

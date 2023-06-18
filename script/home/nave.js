@@ -8,7 +8,7 @@ mobileNavbarBbtn.addEventListener("click", () => {
 });
 
 const header = document.querySelector(".navBar");
-const mainBar = document.querySelector("main");
+// const mainBar = document.querySelector("main");
 
 window.addEventListener('scroll', function() {
     header.classList.toggle("sticky", window.scrollY > 150)
