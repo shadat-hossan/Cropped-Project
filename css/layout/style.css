@@ -5,6 +5,11 @@
     list-style-type: none;
 }
 
+@font-face {
+    font-family: Aktiv-Grotesk-W01-Medium;
+    src: url(../font/Aktiv-Grotesk-W01-Medium.ttf) format("truetype");
+}
+
 body {
     font-family: "Poppins", sans-serif;
 }

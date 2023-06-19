@@ -3,10 +3,31 @@
     padding: 0;
     box-sizing: border-box;
     list-style-type: none;
+    font-family: Aktiv-Grotesk-W01-Medium;
+}
+
+@font-face {
+    font-family: Aktiv-Grotesk-W01-Medium;
+    src: url(../font/Aktiv-Grotesk-W01-Medium.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: Aktiv-Grotesk-W04-Thin;
+    src: url(../font/Aktiv-Grotesk-W04-Thin.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: Aktiv-Grotesk-W06-Light;
+    src: url(../font/Aktiv-Grotesk-W06-Light.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: Aktiv-Grotesk-W06-Regular;
+    src: url(../font/Aktiv-Grotesk-W06-Regular.ttf) format("truetype");
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: Aktiv-Grotesk-W01-Medium;
 }
 
 html {

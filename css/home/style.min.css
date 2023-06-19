@@ -29,6 +29,7 @@
 
 .skil-develo-title .s-d-light-text {
     font-weight: 300;
+    font-family: Aktiv-Grotesk-W06-Light;
 }
 
 .skil-development-all-single-crouse {
@@ -78,6 +79,7 @@
 .s-d-s-c-titleAndDec p {
     color: #222222;
     font-size: 12px;
+    line-height: 16px;
 }
 
 .view-all {

@@ -80,6 +80,7 @@
     font-size: 13px;
     color: #818181;
     margin-bottom: 13px;
+    font-family: Aktiv-Grotesk-W06-Light;
 }
 
 .fo-center-item .c-para-text-aline {
@@ -154,6 +155,7 @@
 .copyrightMessag .c-light {
     font-weight: 200;
     color: #b4b4b4;
+    font-family: Aktiv-Grotesk-W06-Light;
 }
 
 @media screen and (max-width: 767px) {
