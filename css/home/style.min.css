@@ -178,4 +178,7 @@
         grid-column-gap: 20px;
         grid-row-gap: 20px;
     }
+    .skil-development-section {
+        padding: 3rem 3%;
+    }
 }
