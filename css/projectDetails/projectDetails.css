@@ -485,4 +485,25 @@ img {
     }
 }
 
-@media screen and (max-width: 500px) {}
+@media screen and (max-width: 500px) {
+    .c-l-p-podt-meta {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .similear-post .all-s-po-s-project {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width: 276px) {
+    .c-s-p-i-image-gallery .similear-post h3 {
+        font-size: 19px;
+        ;
+    }
+    .similear-post .all-s-po-s-project {
+        grid-template-columns: auto;
+    }
+}

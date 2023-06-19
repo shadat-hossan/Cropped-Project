@@ -387,4 +387,8 @@
         }
     }
     
-    @media screen and (max-width: 500px) {}
+    @media screen and (max-width: 500px) {
+        .c-l-p-podt-meta {
+            display: none;
+        }
+    }
