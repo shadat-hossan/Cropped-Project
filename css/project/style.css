@@ -89,7 +89,7 @@
     }
     
     .c-s-p-i-p-text {
-        padding: 20px 0;
+        padding: 10px 0;
         border-bottom: 1px solid #eee;
     }
     
@@ -131,7 +131,7 @@
     
     .c-l-p-podt-meta .post-meta-time {
         font-size: 12px;
-        color: #111;
+        color: #777;
     }
     
     .podt-meta-images-section {
@@ -169,6 +169,7 @@
         text-align: justify;
         line-height: 18px;
         margin-top: 10px;
+        font-family: Aktiv-Grotesk-W06-Regular;
     }
     
     .podt-meta-read-more-section {
@@ -276,6 +277,7 @@
     
     .singal-most-visited-updates-iamges p {
         font-size: 12px;
+        margin-bottom: 8px;
     }
     
     @media screen and (max-width: 1168px) {

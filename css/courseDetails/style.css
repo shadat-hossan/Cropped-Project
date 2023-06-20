@@ -1,8 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,400;1,600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100&display=swap");
-* {
+/* @import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,400;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100&display=swap"); */
+
+
+/* * {
     font-family: "Roboto", Sans-serif;
-}
+} */
 
 ::selection {
     background: #e48300;
@@ -23,7 +25,7 @@
 }
 
 .sub-intro .su_title {
-    font-family: "Josefin Slab", Sans-serif;
+    font-family: Aktiv-Grotesk-W01-Medium;
     font-weight: 900;
     font-size: 2.5rem;
     color: #54595f;
@@ -31,7 +33,7 @@
 }
 
 .sub-intro .su_on_cours {
-    font-family: "Josefin Slab", Sans-serif;
+    font-family: Aktiv-Grotesk-W06-Light;
     font-weight: 400;
     color: #54595f;
     line-height: 2em;
@@ -39,7 +41,7 @@
 
 .sub-intro .su_stan_regis {
     font-weight: 400;
-    font-family: "Roboto", Sans-serif;
+    font-family: Aktiv-Grotesk-W06-Regular;
     color: #ea7a00;
     line-height: 2em;
 }
@@ -115,6 +117,17 @@
     outline: 0;
     padding: 0;
     vertical-align: baseline;
+}
+
+.about-course .about-note p,
+.certification p,
+.learning-Outcomes ul li,
+.CO-W-2 p {
+    font-family: Aktiv-Grotesk-W06-Regular;
+}
+
+.counterVstext-font p {
+    font-family: Aktiv-Grotesk-W06-Regular;
 }
 
 .counterVstext #Count-member {
@@ -472,5 +485,66 @@ img {
         padding: 40px;
         padding-left: 12px;
         animation: about 1.3s ease 1;
+    }
+}
+
+@media screen and (max-width: 552px) {
+    .sub-intro .su_title {
+        font-size: 2rem;
+    }
+    .couorse-details {
+        display: flex;
+        flex-direction: column;
+    }
+    .registration-staps {
+        width: 100%;
+    }
+    .registration-all-staps {
+        display: flex;
+        padding: .8rem;
+        flex-direction: column;
+    }
+    .about-note h3 {
+        font-size: 30px;
+    }
+    .registration .regis-head-text h2 {
+        font-size: 2.6rem;
+    }
+    .spap-container h2 {
+        font-size: 21px;
+    }
+    .similarSkillDevelopment .s-sk-de-head {
+        font-size: 27px;
+    }
+    .s-sk-de-all-courses {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .sub-intro .su_title {
+        font-size: 1.6rem;
+    }
+    .registration-all-staps {
+        padding: .7rem;
+    }
+    .about-note h3 {
+        font-size: 25px;
+    }
+    .registration .regis-head-text h2 {
+        font-size: 2.2rem;
+    }
+    .spap-container h2 {
+        font-size: 18px;
+    }
+    .similarSkillDevelopment .s-sk-de-head {
+        font-size: 22px;
+    }
+    .s-sk-de-all-courses {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 20px;
     }
 }

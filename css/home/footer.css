@@ -1,4 +1,4 @@
-.cointainers {
+#footer-section {
     background: #3a3a3a;
 }
 
@@ -11,6 +11,10 @@
 .fo-leftsit-item {
     flex: 25%;
     margin-right: 3rem;
+}
+
+.l-s-i-head {
+    margin-top: 1rem;
 }
 
 .fo-leftsit-item .l-s-i-head a {
@@ -26,7 +30,7 @@
 }
 
 .fo-leftsit-item .l-si-from {
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .fo-leftsit-item .l-si-from input {
