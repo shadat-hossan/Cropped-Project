@@ -1,0 +1,154 @@
+* {
+  outline: none;
+}
+
+.lead {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 3% 15%;
+  grid-gap: 20px;
+  /* width: 100%; */
+}
+
+#vfb-legend2041 {
+  margin-bottom: 1rem;
+}
+
+.legal-stuff {
+  padding: 0 0.5rem;
+}
+
+.legal-stuff h3 {
+  font-family: aAktiv-Grotesk-W06-Light;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.legal-stuff p {
+  font-family: Aktiv-Grotesk-W06-Regular;
+  margin-bottom: 10px;
+  text-align: justify;
+  font-size: 15px;
+  width: 100%;
+}
+
+.submit-contanner {
+  margin: 0 0.2rem;
+}
+
+.submission {
+  width: 90%;
+}
+
+fieldset {
+  padding: 20px;
+  border: 1px solid #d3d3d3;
+  border-radius: 3px;
+  background-color: #eee;
+}
+
+.vfb-legend h3 {
+  font-family: Aktiv-Grotesk-W06-Regular;
+  font-size: 18px;
+  line-height: 2em;
+  border-bottom: 1px solid #cecdcd;
+  font-weight: 400;
+}
+
+fieldset ul li label {
+  display: block;
+  padding: 6px 0;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+fieldset ul li input {
+  border-radius: 3px;
+}
+
+/* fieldset ul li input,
+fieldset ul li select,
+fieldset ul li textarea {
+  width: 100%;
+} */
+
+.s25109 {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.s25110 {
+  width: 100%;
+  margin-bottom: 8px;
+  background: #fafafa;
+  padding: 2px;
+  border: 1px solid #e6e5e5;
+  transition: all 0.3s;
+}
+
+.box-shawo {
+  box-shadow: 1px 1px 6px #0692e356, -1px -1px 6px #0692e356;
+  border: 1px solid #0692e391;
+}
+
+.checkbox2931 {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.instructions-dec {
+  font-size: 11px;
+  padding-bottom: 8px;
+  display: block;
+  line-height: 18px;
+}
+
+.input-requart-star {
+  color: #bc1212;
+  margin-left: 2px;
+}
+
+.Verifiy h3 {
+  font-family: Aktiv-Grotesk-W06-Regular;
+  font-size: 18px;
+  line-height: 2em;
+  border-bottom: 1px solid #cecdcd;
+  font-weight: 400;
+}
+
+.s2r510 {
+  width: 50%;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    margin: 3% 13%;
+  }
+}
+
+@media screen and (max-width: 903px) {
+  .lead {
+    margin: 3% 10%;
+  }
+}
+
+@media screen and (max-width: 803px) {
+  .lead {
+    margin: 3% 7%;
+  }
+  .submission {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .lead {
+    margin: 3% 2%;
+  }
+}
+
+@media screen and (max-width: 666px) {
+  .lead {
+    grid-template-columns: auto;
+  }
+}

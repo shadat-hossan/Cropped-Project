@@ -1,250 +1,249 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style-type: none;
-    font-family: Aktiv-Grotesk-W01-Medium;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  font-family: Aktiv-Grotesk-W01-Medium;
 }
 
 @font-face {
-    font-family: Aktiv-Grotesk-W01-Medium;
-    src: url(../font/Aktiv-Grotesk-W01-Medium.ttf) format("truetype");
+  font-family: Aktiv-Grotesk-W01-Medium;
+  src: url(../font/Aktiv-Grotesk-W01-Medium.ttf) format("truetype");
 }
 
 @font-face {
-    font-family: Aktiv-Grotesk-W04-Thin;
-    src: url(../font/Aktiv-Grotesk-W04-Thin.ttf) format("truetype");
+  font-family: Aktiv-Grotesk-W04-Thin;
+  src: url(../font/Aktiv-Grotesk-W04-Thin.ttf) format("truetype");
 }
 
 @font-face {
-    font-family: Aktiv-Grotesk-W06-Light;
-    src: url(../font/Aktiv-Grotesk-W06-Light.ttf) format("truetype");
+  font-family: aAktiv-Grotesk-W06-Light;
+  src: url(../font/Aktiv-Grotesk-W06-Light.ttf) format("truetype");
 }
 
 @font-face {
-    font-family: Aktiv-Grotesk-W06-Regular;
-    src: url(../font/Aktiv-Grotesk-W06-Regular.ttf) format("truetype");
+  font-family: Aktiv-Grotesk-W06-Regular;
+  src: url(../font/Aktiv-Grotesk-W06-Regular.ttf) format("truetype");
 }
 
 body {
-    font-family: Aktiv-Grotesk-W01-Medium;
+  font-family: Aktiv-Grotesk-W01-Medium;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 ::selection {
-    background: #e48300;
-    color: #000000;
+  background: #e48300;
+  color: #000000;
 }
 
 .wro {
-    max-width: 72rem;
-    margin: 0 auto;
+  max-width: 72rem;
+  margin: 0 auto;
 }
 
 .cointainer {
-    width: 100%;
-    padding: 0% 1%;
-    z-index: 100 !important;
-    transition: all .5s !important;
-    position: relative;
+  width: 100%;
+  padding: 0% 1%;
+  z-index: 100 !important;
+  transition: all 0.5s !important;
+  position: relative;
 }
 
 .sticky {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    background: #fff;
-    box-shadow: 1px 1px 3px #c5c5c5;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  box-shadow: 1px 1px 3px #c5c5c5;
 }
 
 .Hello {
-    max-width: 72rem;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  max-width: 72rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-
 
 /* .sticky .header-logo {
     margin-right: 32rem;
 } */
 
 .header-logo {
-    padding: 1rem 0 0 0;
+  padding: 1rem 0 0 0;
 }
 
 .header-logo img {
-    width: 80px;
-    margin-top: -10px;
+  width: 80px;
+  margin-top: -10px;
 }
 
 .all-had-item .header-list {
-    display: inline-block;
-    padding: 25px 20px;
-    position: relative;
-    cursor: pointer;
+  display: inline-block;
+  padding: 25px 20px;
+  position: relative;
+  cursor: pointer;
 }
 
 .all-had-item .header-list:last-child {
-    padding-right: 0;
+  padding-right: 0;
 }
 
 .all-had-item .header-list:after {
-    content: "";
-    position: absolute;
-    width: 0%;
-    height: 3px;
-    background-color: #f86d1c;
-    left: 0;
-    bottom: 0;
-    transition: all 0.4s;
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 3px;
+  background-color: #f86d1c;
+  left: 0;
+  bottom: 0;
+  transition: all 0.4s;
 }
 
 .all-had-item .header-list:hover.header-list:after {
-    width: 100%;
+  width: 100%;
 }
 
 .all-had-item .header-list a {
-    text-decoration: none;
-    text-decoration: none;
-    color: #333;
-    transition: all 0.3s;
-    font-size: 15px;
+  text-decoration: none;
+  text-decoration: none;
+  color: #333;
+  transition: all 0.3s;
+  font-size: 15px;
 }
 
 a:is(:link, :active, :visited).active {
-    color: #f86d1c;
+  color: #f86d1c;
 }
 
 .all-had-item .header-list:hover a {
-    color: #f86d1c;
+  color: #f86d1c;
 }
 
 .all-had-item .header-list:last-child {
-    padding-right: 0px;
+  padding-right: 0px;
 }
 
 .all-had-item .fa-caret-down {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .sub-had-item {
-    width: 200px;
-    display: block;
-    position: absolute;
-    background: #fffefe;
-    z-index: 100;
-    margin-top: 25px;
-    display: none;
-    transition: all 0.3s;
-    margin-left: -20px;
+  width: 200px;
+  display: block;
+  position: absolute;
+  background: #fffefe;
+  z-index: 100;
+  margin-top: 25px;
+  display: none;
+  transition: all 0.3s;
+  margin-left: -20px;
 }
 
 .sub-had-item .sub-had-list {
-    width: 100%;
-    padding: 10px;
-    transition: all.3s;
+  width: 100%;
+  padding: 10px;
+  transition: all.3s;
 }
 
 .sub-had-item .sub-had-list:hover {
-    background-color: #505050;
+  background-color: #505050;
 }
 
 .sub-had-item .sub-had-list:hover.sub-had-list a {
-    color: #f7f6f6;
+  color: #f7f6f6;
 }
 
 .mobile-navbar-btn {
-    display: none;
+  display: none;
 }
 
 .show-sub-item:hover .sub-had-item {
-    display: block;
+  display: block;
 }
 
 @media screen and (max-width: 1024px) {
-    .all-had-item .header-list:hover.header-list:after {
-        width: 0% !important;
-    }
-    .all-had-item .header-list a:hover {
-        color: #333;
-    }
-    .all-had-item {
-        position: absolute;
-        left: 0px !important;
-        width: 100%;
-        background: #f7f6f6;
-        margin-top: 30px;
-        display: none;
-        z-index: 100;
-    }
-    .all-had-item .header-list {
-        display: block;
-        width: 100%;
-    }
-    .all-had-item .header-list:hover.header-list {
-        background: #505050;
-    }
-    .all-had-item .header-list:hover.header-list a {
-        color: #fff;
-    }
-    .sub-had-item {
-        background: #b9b9b9;
-        width: 100%;
-    }
-    .all-had-item .header-list:last-child {
-        padding: 25px 20px;
-    }
-    .mobile-navbar-btn {
-        display: block;
-        cursor: pointer;
-    }
-    .sub-had-item .sub-had-list {
-        padding-left: 30px !important;
-    }
-    .mobile-nav-icon {
-        font-size: 30px;
-    }
-    .h-close {
-        display: none;
-    }
-    .h-active .all-had-item {
-        display: block;
-    }
-    .h-active .h-close {
-        display: block;
-    }
-    .h-active .h-menu {
-        display: none;
-    }
+  .all-had-item .header-list:hover.header-list:after {
+    width: 0% !important;
+  }
+  .all-had-item .header-list a:hover {
+    color: #333;
+  }
+  .all-had-item {
+    position: absolute;
+    left: 0px !important;
+    width: 100%;
+    background: #f7f6f6;
+    margin-top: 30px;
+    display: none;
+    z-index: 100;
+  }
+  .all-had-item .header-list {
+    display: block;
+    width: 100%;
+  }
+  .all-had-item .header-list:hover.header-list {
+    background: #505050;
+  }
+  .all-had-item .header-list:hover.header-list a {
+    color: #fff;
+  }
+  .sub-had-item {
+    background: #b9b9b9;
+    width: 100%;
+  }
+  .all-had-item .header-list:last-child {
+    padding: 25px 20px;
+  }
+  .mobile-navbar-btn {
+    display: block;
+    cursor: pointer;
+  }
+  .sub-had-item .sub-had-list {
+    padding-left: 30px !important;
+  }
+  .mobile-nav-icon {
+    font-size: 30px;
+  }
+  .h-close {
+    display: none;
+  }
+  .h-active .all-had-item {
+    display: block;
+  }
+  .h-active .h-close {
+    display: block;
+  }
+  .h-active .h-menu {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 900px) {
-    .cointainer {
-        padding: 0% 4%;
-    }
-    .header-logo img {
-        width: 60px;
-    }
-    .all-had-item .header-list {
-        padding: 20px 15px;
-    }
-    .all-had-item .header-list a {
-        font-size: 14px;
-    }
-    .sub-had-item .sub-had-list {
-        padding: 8px;
-    }
-    .sub-had-item {
-        margin-top: 20px;
-        margin-left: -15px !important;
-    }
-    .all-had-item {
-        left: -40px;
-    }
+  .cointainer {
+    padding: 0% 4%;
+  }
+  .header-logo img {
+    width: 60px;
+  }
+  .all-had-item .header-list {
+    padding: 20px 15px;
+  }
+  .all-had-item .header-list a {
+    font-size: 14px;
+  }
+  .sub-had-item .sub-had-list {
+    padding: 8px;
+  }
+  .sub-had-item {
+    margin-top: 20px;
+    margin-left: -15px !important;
+  }
+  .all-had-item {
+    left: -40px;
+  }
 }
